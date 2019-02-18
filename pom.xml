@@ -6,7 +6,7 @@
 
     <groupId>com.github.badgerwithagun</groupId>
     <artifactId>kucoin-java-sdk</artifactId>
-    <version>1.0.0.2</version>
+    <version>1.0.0.3</version>
 
     <name>kucoin-java-sdk</name>
     <url>http://www.kucoin.com</url>
@@ -56,6 +56,12 @@
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
             <version>1.7.25</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.25</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>commons-codec</groupId>
