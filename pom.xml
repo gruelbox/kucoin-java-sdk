@@ -34,11 +34,17 @@
     <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
     <maven.surefire.plugin.version>2.22.1</maven.surefire.plugin.version>
     <sonar-jacoco-listeners.version>5.11.0.17289</sonar-jacoco-listeners.version>
-
-    <mockito.version>1.10.19</mockito.version>
-    <hamcrest.version>2.1</hamcrest.version>
-    <junit.version>4.12</junit.version>
   </properties>
+  
+   <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.sonarsource.java</groupId>
+        <artifactId>sonar-jacoco-listeners</artifactId>
+        <version>${sonar-jacoco-listeners.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <dependencies>
     <dependency>
