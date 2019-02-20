@@ -1,9 +1,11 @@
-# JAVA SDK for KuCoin API
+# Gruelbox's fork of JAVA SDK for KuCoin API
+This fork was created to provide a version of the SDK on Maven Central with the bugs fixed. If the original project becomes active, this may be abandoned.
+
 The detailed document [https://docs.kucoin.com](https://docs.kucoin.com).
 
-[![Latest Version](https://img.shields.io/github/release/Kucoin/kucoin-java-sdk.svg?style=flat-square)](https://github.com/Kucoin/kucoin-java-sdk/releases)
+[![Latest Version](https://img.shields.io/github/release/gruelbox/kucoin-java-sdk.svg?style=flat-square)](https://github.com/gruelbox/kucoin-java-sdk/releases)
 
-[![Build Status](https://travis-ci.org/Kucoin/kucoin-java-sdk.svg?branch=master)](https://travis-ci.org/Kucoin/kucoin-java-sdk)
+[![Build Status](https://travis-ci.org/gruelbox/kucoin-java-sdk.svg?branch=master)](https://travis-ci.org/gruelbox/kucoin-java-sdk)
 
 ## Installation
 1. Install library into your Maven's local repository by running `mvn install`
