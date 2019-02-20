@@ -117,12 +117,13 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>${maven.surefire.plugin.version}</version>
       </plugin>
+      <!-- SKIP JAVADOC. Lots of formatting issues to resolve first
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>${maven-javadoc-plugin.version}</version>
         <configuration>
-          <failOnError>false</failOnError>
+          <failOnError>true</failOnError>
           <quiet>true</quiet>
         </configuration>
         <executions>
@@ -133,7 +134,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin> -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
