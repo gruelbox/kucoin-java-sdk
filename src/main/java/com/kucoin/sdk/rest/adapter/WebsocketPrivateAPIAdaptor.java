@@ -3,12 +3,12 @@
  */
 package com.kucoin.sdk.rest.adapter;
 
-import java.io.IOException;
-
 import com.kucoin.sdk.rest.impl.retrofit.AuthRetrofitAPIImpl;
 import com.kucoin.sdk.rest.interfaces.WebsocketPrivateAPI;
 import com.kucoin.sdk.rest.interfaces.retrofit.WebsocketAuthAPIRetrofit;
 import com.kucoin.sdk.rest.response.WebsocketTokenResponse;
+
+import java.io.IOException;
 
 /**
  * Created by chenshiwei on 2019/1/18.

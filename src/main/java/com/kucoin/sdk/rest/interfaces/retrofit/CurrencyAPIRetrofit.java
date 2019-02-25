@@ -6,6 +6,7 @@ package com.kucoin.sdk.rest.interfaces.retrofit;
 import com.kucoin.sdk.rest.response.CurrencyDetailResponse;
 import com.kucoin.sdk.rest.response.CurrencyResponse;
 import com.kucoin.sdk.rest.response.KucoinResponse;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

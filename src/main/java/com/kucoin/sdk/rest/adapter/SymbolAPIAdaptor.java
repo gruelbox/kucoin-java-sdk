@@ -3,15 +3,15 @@
  */
 package com.kucoin.sdk.rest.adapter;
 
-import java.io.IOException;
-import java.util.List;
-
 import com.kucoin.sdk.rest.impl.retrofit.PublicRetrofitAPIImpl;
 import com.kucoin.sdk.rest.interfaces.SymbolAPI;
 import com.kucoin.sdk.rest.interfaces.retrofit.SymbolAPIRetrofit;
 import com.kucoin.sdk.rest.response.SymbolResponse;
 import com.kucoin.sdk.rest.response.SymbolTickResponse;
 import com.kucoin.sdk.rest.response.TickerResponse;
+
+import java.io.IOException;
+import java.util.List;
 
 /**
  * Created by chenshiwei on 2019/1/18.

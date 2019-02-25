@@ -4,6 +4,7 @@
 package com.kucoin.sdk.websocket.event;
 
 import com.kucoin.sdk.model.OrderBook;
+
 import lombok.Data;
 
 /**

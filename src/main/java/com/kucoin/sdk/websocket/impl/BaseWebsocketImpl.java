@@ -3,13 +3,6 @@
  */
 package com.kucoin.sdk.websocket.impl;
 
-import java.io.Closeable;
-import java.io.IOException;
-import java.util.UUID;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.kucoin.sdk.KucoinObjectMapper;
 import com.kucoin.sdk.model.InstanceServer;
@@ -17,10 +10,17 @@ import com.kucoin.sdk.rest.response.WebsocketTokenResponse;
 import com.kucoin.sdk.websocket.ChooseServerStrategy;
 import com.kucoin.sdk.websocket.event.KucoinEvent;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.WebSocket;
 import okhttp3.WebSocketListener;
+
+import java.io.Closeable;
+import java.io.IOException;
+import java.util.UUID;
 
 /**
  * Created by chenshiwei on 2019/1/18.

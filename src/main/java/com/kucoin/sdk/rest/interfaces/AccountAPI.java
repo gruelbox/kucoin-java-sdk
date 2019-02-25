@@ -3,17 +3,17 @@
  */
 package com.kucoin.sdk.rest.interfaces;
 
-import java.io.IOException;
-import java.math.BigDecimal;
-import java.util.List;
-import java.util.Map;
-
 import com.kucoin.sdk.exception.KucoinApiException;
 import com.kucoin.sdk.rest.response.AccountBalanceResponse;
 import com.kucoin.sdk.rest.response.AccountBalancesResponse;
 import com.kucoin.sdk.rest.response.AccountDetailResponse;
 import com.kucoin.sdk.rest.response.AccountHoldsResponse;
 import com.kucoin.sdk.rest.response.Pagination;
+
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by chenshiwei on 2019/1/9.

@@ -4,9 +4,9 @@
 
 package com.kucoin.sdk.rest.response;
 
-import java.util.List;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import java.util.List;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

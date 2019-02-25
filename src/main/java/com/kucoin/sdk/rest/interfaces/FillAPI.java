@@ -3,10 +3,10 @@
  */
 package com.kucoin.sdk.rest.interfaces;
 
-import java.io.IOException;
-
 import com.kucoin.sdk.rest.response.Pagination;
 import com.kucoin.sdk.rest.response.TradeResponse;
+
+import java.io.IOException;
 
 /**
  * Created by chenshiwei on 2019/1/9.

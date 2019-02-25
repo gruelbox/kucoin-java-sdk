@@ -3,11 +3,6 @@
  */
 package com.kucoin.sdk.websocket.listener;
 
-import java.io.IOException;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.kucoin.sdk.KucoinObjectMapper;
@@ -18,11 +13,17 @@ import com.kucoin.sdk.websocket.event.AccountChangeEvent;
 import com.kucoin.sdk.websocket.event.KucoinEvent;
 import com.kucoin.sdk.websocket.event.OrderActivateEvent;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import okhttp3.Response;
 import okhttp3.WebSocket;
 import okhttp3.WebSocketListener;
+
+import java.io.IOException;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * Created by chenshiwei on 2019/1/19.

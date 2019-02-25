@@ -5,6 +5,7 @@ package com.kucoin.sdk.rest.interfaces.retrofit;
 
 import com.kucoin.sdk.rest.response.KucoinResponse;
 import com.kucoin.sdk.rest.response.OrderBookResponse;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;

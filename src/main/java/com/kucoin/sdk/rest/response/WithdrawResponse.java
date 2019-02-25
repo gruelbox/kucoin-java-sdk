@@ -3,11 +3,11 @@
  */
 package com.kucoin.sdk.rest.response;
 
-import java.math.BigDecimal;
-import java.util.Date;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.kucoin.sdk.model.enums.WithdrawStatusEnum;
+
+import java.math.BigDecimal;
+import java.util.Date;
 
 import lombok.Data;
 

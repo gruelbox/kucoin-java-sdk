@@ -3,9 +3,9 @@
  */
 package com.kucoin.sdk.model;
 
-import lombok.Data;
-
 import java.util.List;
+
+import lombok.Data;
 
 /**
  * Created by chenshiwei on 2019/1/19.

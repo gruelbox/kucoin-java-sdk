@@ -4,6 +4,7 @@
 package com.kucoin.sdk.rest.interfaces.retrofit;
 
 import com.kucoin.sdk.rest.response.KucoinResponse;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 

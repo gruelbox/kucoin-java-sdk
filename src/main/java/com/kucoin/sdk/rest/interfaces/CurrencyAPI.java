@@ -3,12 +3,12 @@
  */
 package com.kucoin.sdk.rest.interfaces;
 
-import java.io.IOException;
-import java.util.List;
-
 import com.kucoin.sdk.exception.KucoinApiException;
 import com.kucoin.sdk.rest.response.CurrencyDetailResponse;
 import com.kucoin.sdk.rest.response.CurrencyResponse;
+
+import java.io.IOException;
+import java.util.List;
 
 /**
  * Created by chenshiwei on 2019/1/11.

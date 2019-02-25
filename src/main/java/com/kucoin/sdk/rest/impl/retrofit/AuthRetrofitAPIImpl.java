@@ -3,9 +3,9 @@
  */
 package com.kucoin.sdk.rest.impl.retrofit;
 
-import java.lang.reflect.ParameterizedType;
-
 import com.kucoin.sdk.factory.RetrofitFactory;
+
+import java.lang.reflect.ParameterizedType;
 
 /**
  * Created by chenshiwei on 2019/1/10.

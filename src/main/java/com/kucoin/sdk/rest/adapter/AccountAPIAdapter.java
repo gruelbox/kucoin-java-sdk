@@ -3,11 +3,6 @@
  */
 package com.kucoin.sdk.rest.adapter;
 
-import java.io.IOException;
-import java.math.BigDecimal;
-import java.util.List;
-import java.util.Map;
-
 import com.kucoin.sdk.rest.impl.retrofit.AuthRetrofitAPIImpl;
 import com.kucoin.sdk.rest.interfaces.AccountAPI;
 import com.kucoin.sdk.rest.interfaces.retrofit.AccountAPIRetrofit;
@@ -18,6 +13,11 @@ import com.kucoin.sdk.rest.response.AccountBalancesResponse;
 import com.kucoin.sdk.rest.response.AccountDetailResponse;
 import com.kucoin.sdk.rest.response.AccountHoldsResponse;
 import com.kucoin.sdk.rest.response.Pagination;
+
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by chenshiwei on 2019/1/10.

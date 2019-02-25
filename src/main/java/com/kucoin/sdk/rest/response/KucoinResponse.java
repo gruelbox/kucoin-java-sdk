@@ -4,9 +4,9 @@
 
 package com.kucoin.sdk.rest.response;
 
-import java.io.Serializable;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import java.io.Serializable;
 
 import lombok.Data;
 

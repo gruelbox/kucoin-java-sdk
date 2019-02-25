@@ -4,6 +4,7 @@
 package com.kucoin.sdk.model.enums;
 
 import com.kucoin.sdk.constants.APIConstants;
+
 import lombok.Getter;
 
 /**

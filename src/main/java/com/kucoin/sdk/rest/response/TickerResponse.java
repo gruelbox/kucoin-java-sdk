@@ -3,9 +3,9 @@
  */
 package com.kucoin.sdk.rest.response;
 
-import java.math.BigDecimal;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import java.math.BigDecimal;
 
 import lombok.Data;
 

@@ -3,13 +3,13 @@
  */
 package com.kucoin.sdk.rest.interfaces;
 
-import java.io.IOException;
-
 import com.kucoin.sdk.rest.request.OrderCreateApiRequest;
 import com.kucoin.sdk.rest.response.OrderCancelResponse;
 import com.kucoin.sdk.rest.response.OrderCreateResponse;
 import com.kucoin.sdk.rest.response.OrderResponse;
 import com.kucoin.sdk.rest.response.Pagination;
+
+import java.io.IOException;
 
 /**
  * Created by chenshiwei on 2019/1/9.

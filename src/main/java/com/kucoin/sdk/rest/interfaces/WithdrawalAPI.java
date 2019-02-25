@@ -3,13 +3,13 @@
  */
 package com.kucoin.sdk.rest.interfaces;
 
-import java.io.IOException;
-
 import com.kucoin.sdk.rest.request.WithdrawApplyRequest;
 import com.kucoin.sdk.rest.response.Pagination;
 import com.kucoin.sdk.rest.response.WithdrawApplyResponse;
 import com.kucoin.sdk.rest.response.WithdrawQuotaResponse;
 import com.kucoin.sdk.rest.response.WithdrawResponse;
+
+import java.io.IOException;
 
 /**
  * Created by chenshiwei on 2019/1/9.

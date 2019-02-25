@@ -8,6 +8,7 @@ import com.kucoin.sdk.rest.response.DepositAddressResponse;
 import com.kucoin.sdk.rest.response.DepositResponse;
 import com.kucoin.sdk.rest.response.KucoinResponse;
 import com.kucoin.sdk.rest.response.Pagination;
+
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;

@@ -3,8 +3,6 @@
  */
 package com.kucoin.sdk;
 
-import java.io.IOException;
-
 import com.kucoin.sdk.model.enums.PublicChannelEnum;
 import com.kucoin.sdk.websocket.KucoinAPICallback;
 import com.kucoin.sdk.websocket.event.KucoinEvent;
@@ -12,6 +10,8 @@ import com.kucoin.sdk.websocket.event.Level2ChangeEvent;
 import com.kucoin.sdk.websocket.event.Level3ChangeEvent;
 import com.kucoin.sdk.websocket.event.MatchExcutionChangeEvent;
 import com.kucoin.sdk.websocket.event.TickerChangeEvent;
+
+import java.io.IOException;
 
 /**
  * Created by chenshiwei on 2019/1/10.

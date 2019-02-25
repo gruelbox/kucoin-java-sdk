@@ -4,10 +4,11 @@
 package com.kucoin.sdk.rest.request;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import lombok.Builder;
-import lombok.Getter;
 
 import java.math.BigDecimal;
+
+import lombok.Builder;
+import lombok.Getter;
 
 /**
  * Created by zicong.lu on 2018/12/14.

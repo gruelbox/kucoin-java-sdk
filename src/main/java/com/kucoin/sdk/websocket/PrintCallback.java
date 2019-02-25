@@ -3,10 +3,10 @@
  */
 package com.kucoin.sdk.websocket;
 
+import com.kucoin.sdk.exception.KucoinApiException;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.kucoin.sdk.exception.KucoinApiException;
 
 /**
  * Created by chenshiwei on 2019/1/19.

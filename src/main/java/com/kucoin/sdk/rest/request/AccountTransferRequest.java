@@ -3,11 +3,11 @@
  */
 package com.kucoin.sdk.rest.request;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
 import java.io.Serializable;
 import java.math.BigDecimal;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
 /**
  * Created by tao.mao on 2018/9/3.

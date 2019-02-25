@@ -7,6 +7,7 @@ import com.kucoin.sdk.rest.response.KucoinResponse;
 import com.kucoin.sdk.rest.response.SymbolResponse;
 import com.kucoin.sdk.rest.response.SymbolTickResponse;
 import com.kucoin.sdk.rest.response.TickerResponse;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;

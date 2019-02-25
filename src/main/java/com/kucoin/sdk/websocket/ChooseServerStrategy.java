@@ -3,9 +3,9 @@
  */
 package com.kucoin.sdk.websocket;
 
-import java.util.List;
-
 import com.kucoin.sdk.model.InstanceServer;
+
+import java.util.List;
 
 /**
  * Created by chenshiwei on 2019/1/24.

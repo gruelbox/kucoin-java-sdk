@@ -9,6 +9,7 @@ import com.kucoin.sdk.rest.response.Pagination;
 import com.kucoin.sdk.rest.response.WithdrawApplyResponse;
 import com.kucoin.sdk.rest.response.WithdrawQuotaResponse;
 import com.kucoin.sdk.rest.response.WithdrawResponse;
+
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.DELETE;

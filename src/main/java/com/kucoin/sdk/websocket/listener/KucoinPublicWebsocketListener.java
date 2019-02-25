@@ -3,16 +3,6 @@
  */
 package com.kucoin.sdk.websocket.listener;
 
-import static com.kucoin.sdk.constants.APIConstants.API_LEVEL2_TOPIC_PREFIX;
-import static com.kucoin.sdk.constants.APIConstants.API_LEVEL3_TOPIC_PREFIX;
-import static com.kucoin.sdk.constants.APIConstants.API_MATCH_TOPIC_PREFIX;
-import static com.kucoin.sdk.constants.APIConstants.API_TICKER_TOPIC_PREFIX;
-
-import java.io.IOException;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.kucoin.sdk.KucoinObjectMapper;
@@ -24,11 +14,22 @@ import com.kucoin.sdk.websocket.event.Level3ChangeEvent;
 import com.kucoin.sdk.websocket.event.MatchExcutionChangeEvent;
 import com.kucoin.sdk.websocket.event.TickerChangeEvent;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import okhttp3.Response;
 import okhttp3.WebSocket;
 import okhttp3.WebSocketListener;
+
+import java.io.IOException;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+import static com.kucoin.sdk.constants.APIConstants.API_LEVEL2_TOPIC_PREFIX;
+import static com.kucoin.sdk.constants.APIConstants.API_LEVEL3_TOPIC_PREFIX;
+import static com.kucoin.sdk.constants.APIConstants.API_MATCH_TOPIC_PREFIX;
+import static com.kucoin.sdk.constants.APIConstants.API_TICKER_TOPIC_PREFIX;
 
 /**
  * Created by chenshiwei on 2019/1/10.

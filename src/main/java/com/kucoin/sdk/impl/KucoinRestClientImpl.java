@@ -4,11 +4,11 @@
 package com.kucoin.sdk.impl;
 
 import com.kucoin.sdk.KucoinClientBuilder;
+import com.kucoin.sdk.KucoinRestClient;
 import com.kucoin.sdk.rest.interfaces.AccountAPI;
 import com.kucoin.sdk.rest.interfaces.CurrencyAPI;
 import com.kucoin.sdk.rest.interfaces.DepositAPI;
 import com.kucoin.sdk.rest.interfaces.FillAPI;
-import com.kucoin.sdk.KucoinRestClient;
 import com.kucoin.sdk.rest.interfaces.HistoryAPI;
 import com.kucoin.sdk.rest.interfaces.OrderAPI;
 import com.kucoin.sdk.rest.interfaces.OrderBookAPI;

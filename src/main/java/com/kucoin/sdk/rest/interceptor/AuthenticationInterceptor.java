@@ -3,8 +3,9 @@
  */
 package com.kucoin.sdk.rest.interceptor;
 
-import java.io.IOException;
-import java.nio.charset.Charset;
+import com.google.common.base.Strings;
+import com.kucoin.sdk.constants.APIConstants;
+import com.kucoin.sdk.exception.KucoinApiException;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.codec.digest.HmacUtils;
@@ -12,16 +13,17 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.common.base.Strings;
-import com.kucoin.sdk.constants.APIConstants;
-import com.kucoin.sdk.exception.KucoinApiException;
-
-import lombok.Getter;
-import lombok.Setter;
 import okhttp3.Interceptor;
 import okhttp3.MediaType;
 import okhttp3.Request;
 import okhttp3.Response;
+
+import java.io.IOException;
+import java.nio.charset.Charset;
+
+import lombok.Getter;
+import lombok.Setter;
+
 import okio.Buffer;
 
 /**

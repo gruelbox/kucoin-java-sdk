@@ -3,12 +3,12 @@
  */
 package com.kucoin.sdk.rest.interfaces;
 
-import java.io.IOException;
-import java.util.List;
-
 import com.kucoin.sdk.rest.response.SymbolResponse;
 import com.kucoin.sdk.rest.response.SymbolTickResponse;
 import com.kucoin.sdk.rest.response.TickerResponse;
+
+import java.io.IOException;
+import java.util.List;
 
 /**
  * Created by chenshiwei on 2019/1/11.

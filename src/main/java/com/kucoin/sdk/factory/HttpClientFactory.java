@@ -4,6 +4,7 @@
 package com.kucoin.sdk.factory;
 
 import com.kucoin.sdk.rest.interceptor.AuthenticationInterceptor;
+
 import okhttp3.Dispatcher;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;

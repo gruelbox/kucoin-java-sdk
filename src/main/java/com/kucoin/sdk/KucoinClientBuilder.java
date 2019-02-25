@@ -3,10 +3,6 @@
  */
 package com.kucoin.sdk;
 
-import java.io.IOException;
-
-import org.apache.commons.lang3.StringUtils;
-
 import com.kucoin.sdk.constants.APIConstants;
 import com.kucoin.sdk.impl.KucoinPrivateWSClientImpl;
 import com.kucoin.sdk.impl.KucoinPublicWSClientImpl;
@@ -33,6 +29,10 @@ import com.kucoin.sdk.rest.interfaces.TimeAPI;
 import com.kucoin.sdk.rest.interfaces.WithdrawalAPI;
 import com.kucoin.sdk.websocket.ChooseServerStrategy;
 import com.kucoin.sdk.websocket.RandomChooseStrategy;
+
+import org.apache.commons.lang3.StringUtils;
+
+import java.io.IOException;
 
 import lombok.Getter;
 

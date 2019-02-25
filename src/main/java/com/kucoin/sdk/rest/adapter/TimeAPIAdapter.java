@@ -3,11 +3,11 @@
  */
 package com.kucoin.sdk.rest.adapter;
 
-import java.io.IOException;
-
 import com.kucoin.sdk.rest.impl.retrofit.PublicRetrofitAPIImpl;
 import com.kucoin.sdk.rest.interfaces.TimeAPI;
 import com.kucoin.sdk.rest.interfaces.retrofit.TimeAPIRetrofit;
+
+import java.io.IOException;
 
 /**
  * Created by chenshiwei on 2019/1/15.

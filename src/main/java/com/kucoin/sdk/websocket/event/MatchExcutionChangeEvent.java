@@ -3,9 +3,9 @@
  */
 package com.kucoin.sdk.websocket.event;
 
-import lombok.Data;
-
 import java.math.BigDecimal;
+
+import lombok.Data;
 
 /**
  * Created by chenshiwei on 2019/1/19.

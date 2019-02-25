@@ -3,10 +3,6 @@
  */
 package com.kucoin.sdk.impl;
 
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.stream.Collectors;
-
 import com.kucoin.sdk.KucoinClientBuilder;
 import com.kucoin.sdk.KucoinPrivateWSClient;
 import com.kucoin.sdk.constants.APIConstants;
@@ -24,6 +20,10 @@ import com.kucoin.sdk.websocket.impl.BaseWebsocketImpl;
 import com.kucoin.sdk.websocket.listener.KucoinPrivateWebsocketListener;
 
 import okhttp3.OkHttpClient;
+
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 /**
  * Created by chenshiwei on 2019/1/18.
